@@ -1,0 +1,30 @@
+# Arduino build artifacts
+*.elf
+*.hex
+*.bin
+*.map
+build/
+.build/
+
+# IDE files
+.vscode/
+*.code-workspace
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fusion 360 recovery/temp files
+*.f3d.bak
+*.f3d~
+
+# Python (if using any scripts)
+__pycache__/
+*.pyc
+.env
+
+# Fritzing autosave
+*.fzz~
+*.fz~
